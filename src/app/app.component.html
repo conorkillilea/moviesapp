@@ -1,0 +1,24 @@
+<!--<h1>Movies</h1>-->
+<section>
+  <header class="header">
+    <h1>Movies</h1>
+    <input class="new-movie" placeholder="Movies" autofocus="" [(ngModel)]="newMovie.name" (keyup.enter)="addMovie()">
+  </header>
+  <movie></movie>
+  </section>
+<!--  <section class="main" *ngIf="movies.length > 0">
+    <ul class="movie-list">
+      <li *ngFor="let movie of movie" [class.completed]="movie.complete">
+        <div class="view">
+          <input class="toggle" type="checkbox" (click)="toggleMovieComplete(movie)" [checked]="movie.complete">>
+          <label>{{movie.name}}</label>
+          <button class="destroy" (click)="removeMovie(movie)"></button>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer" *ngIf="movies.length > 0">
+    <span class="movie-count"><strong>{{movies.length}}</strong> {{movies.length == 1 ? 'item' : 'items'}} left</span>
+  </footer>
+</section>-->
+
